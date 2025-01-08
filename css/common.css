@@ -1,0 +1,53 @@
+@charset "utf-8";
+
+/* FONT */
+@import url("https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/static/pretendard.min.css");
+
+body { font-family:pretendard; font-size:16px; letter-spacing:-0.02em; line-height:1.4em; font-weight:400;}
+
+/* RESET */
+* { padding:0; margin:0; box-sizing:border-box; }
+ul { list-style:none; }
+a { text-decoration:none; color:#333; }
+
+/* COMMON */
+.line { display:flex; justify-content:left; flex-wrap:wrap; gap:10px; padding:10px 0; }
+.sec .section-inner { width:1440px; margin:0 auto; padding:20px  0;}
+
+/* HEADER */
+header { background: rgb(186, 229, 255); position:fixed; top:0; left:0; width:100%; border-bottom:1px solid #bbbbff}
+.inner-wrap { width:900px; margin:0 auto; }
+.inner { display:flex; justify-content:center; position:relative; }
+
+h1 {position:absolute; left:0; top:50%; transform:translateY(-50%); 
+    font-size:32px; font-weight:400; color:#333; letter-spacing:-0.05em; }
+
+.gnb { display:flex; justify-content:center; }
+.gnb>li { padding:20px 20px; }
+.gnb>li a{ font-weight:500; }
+
+.close {position:absolute; right:0; top:50%; transform:translateY(-50%); 
+    font-size:32px; font-weight:400; color:#333; letter-spacing:-0.05em; }
+
+/* SECTION */
+.section1 { background:aquamarine; margin:60px 0 0 0;}
+.html .line li { border:1px solid rgb(184, 228, 255); background:rgb(98, 190, 248); padding:10px 20px; border-radius:20px;}
+
+.section2 { background:beige;}
+.css .line li { padding:10px 20px; border:1px solid rgb(255, 240, 172); background:rgb(236, 208, 82);  border-radius:20px;}
+
+.section3 { background:rgb(225, 179, 255);}
+.jsp .line li { padding:10px 20px; border:1px solid rgb(244, 190, 255); background:rgb(231, 112, 255);  border-radius:20px;}
+
+.section4 { background:rgb(135, 167, 255);}
+.jqy .line li { padding:10px 20px; border:1px solid rgb(137, 228, 255); background:rgb(65, 216, 253);  border-radius:20px;}
+
+.section5 { background:rgb(229, 255, 196);}
+.clone .line li { padding:10px 20px; border:1px solid rgb(196, 255, 188); background:rgb(105, 226, 121);  border-radius:20px;}
+
+.section6 { background:rgb(255, 208, 177);}
+.project .line li { padding:10px 20px; border:1px solid rgb(255, 227, 210); background:rgb(255, 172, 117);  border-radius:20px;}
+
+/* FOOTER */
+.ft { background:#113355; height: 300px;}
+.ft-wrap p{color:#fff; font-size:40px;}
